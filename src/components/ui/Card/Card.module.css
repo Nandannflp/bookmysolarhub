@@ -1,0 +1,19 @@
+.card {
+  background-color: var(--white);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  box-shadow: var(--shadow-sm);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: #1e293b;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.card:hover {
+  box-shadow: var(--shadow-md);
+}
