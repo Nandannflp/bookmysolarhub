@@ -1,0 +1,81 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--light-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .layout {
+    background-color: #0f172a;
+  }
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.header {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-xl);
+  background-color: var(--white);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background-color: var(--background);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: var(--white);
+  }
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+}
+
+.notifBtn {
+  font-size: 1.25rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-gray);
+  transition: all 0.2s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  .notifBtn {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.notifBtn:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.content {
+  flex-grow: 1;
+  padding: var(--spacing-xl);
+  overflow-y: auto;
+}

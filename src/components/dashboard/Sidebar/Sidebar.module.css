@@ -1,0 +1,137 @@
+.sidebar {
+  width: 280px;
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .sidebar {
+    background-color: var(--background);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.brand {
+  padding: var(--spacing-xl) var(--spacing-lg);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .brand {
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--primary);
+  letter-spacing: -0.02em;
+}
+
+.hub {
+  color: var(--accent);
+}
+
+.nav {
+  flex-grow: 1;
+  padding: var(--spacing-lg) 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  overflow-y: auto;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  color: var(--foreground);
+  font-weight: 500;
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  border-left: 3px solid transparent;
+}
+
+.link:hover {
+  background-color: rgba(0, 0, 0, 0.02);
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .link:hover {
+    background-color: rgba(255, 255, 255, 0.02);
+  }
+}
+
+.active {
+  opacity: 1;
+  color: var(--primary);
+  background-color: rgba(11, 59, 143, 0.05);
+  border-left-color: var(--primary);
+}
+
+@media (prefers-color-scheme: dark) {
+  .active {
+    color: var(--secondary);
+    background-color: rgba(0, 194, 168, 0.05);
+    border-left-color: var(--secondary);
+  }
+}
+
+.icon {
+  font-size: 1.25rem;
+}
+
+.footer {
+  padding: var(--spacing-lg);
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.userName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--dark-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .userName {
+    color: var(--white);
+  }
+}
+
+.userRole {
+  font-size: 0.75rem;
+  color: var(--foreground);
+  opacity: 0.7;
+}

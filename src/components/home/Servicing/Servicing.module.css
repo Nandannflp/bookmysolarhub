@@ -1,0 +1,193 @@
+.servicing {
+  padding: var(--spacing-4xl) 0;
+  background-color: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+  .servicing {
+    background-color: var(--background);
+  }
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-3xl);
+  max-width: 800px;
+  margin-inline: auto;
+}
+
+.title {
+  margin-bottom: var(--spacing-sm);
+  color: var(--dark-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: var(--white);
+  }
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--foreground);
+  opacity: 0.8;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-4xl);
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-lg);
+}
+
+@media (min-width: 640px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.featureItem {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--spacing-md);
+}
+
+.icon {
+  font-size: 1.5rem;
+  background: rgba(0, 194, 168, 0.1);
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+}
+
+.featTitle {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  color: var(--dark-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .featTitle {
+    color: var(--white);
+  }
+}
+
+.featDesc {
+  font-size: 0.875rem;
+  color: var(--foreground);
+  opacity: 0.7;
+}
+
+.visual {
+  position: relative;
+  width: 100%;
+}
+
+.dashboardMockup {
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: var(--shadow-lg);
+  background-color: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+  .dashboardMockup {
+    background-color: #1e293b;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.mockHeader {
+  display: flex;
+  gap: 8px;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.02);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .mockHeader {
+    background: rgba(255, 255, 255, 0.02);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+}
+
+.mockDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #e2e8f0;
+}
+
+.mockDot:nth-child(1) { background: #ef4444; }
+.mockDot:nth-child(2) { background: #f59e0b; }
+.mockDot:nth-child(3) { background: #10b981; }
+
+.mockBody {
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.mockRow {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.active {
+  color: #10b981;
+}
+
+.mockChart {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 150px;
+  gap: 8px;
+  margin-top: var(--spacing-md);
+}
+
+.bar {
+  flex: 1;
+  background: linear-gradient(to top, rgba(11, 59, 143, 0.5), var(--primary));
+  border-radius: 4px 4px 0 0;
+  transition: height 1s ease;
+}
+
+.mockAlert {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background: rgba(0, 194, 168, 0.1);
+  padding: var(--spacing-md);
+  border-radius: var(--radius-sm);
+  color: var(--secondary);
+  font-weight: 500;
+  font-size: 0.9rem;
+}

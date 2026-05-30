@@ -1,0 +1,145 @@
+.coverage {
+  padding: var(--spacing-4xl) 0;
+  background-color: var(--white);
+}
+
+@media (prefers-color-scheme: dark) {
+  .coverage {
+    background-color: var(--background);
+  }
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-lg);
+}
+
+.title {
+  color: var(--dark-gray);
+}
+
+@media (prefers-color-scheme: dark) {
+  .title {
+    color: var(--white);
+  }
+}
+
+.subtitle {
+  font-size: 1.125rem;
+  color: var(--foreground);
+  opacity: 0.8;
+  max-width: 500px;
+}
+
+.statesList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.stateItem {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-md);
+  background-color: var(--light-gray);
+  border-radius: var(--radius-md);
+  font-weight: 500;
+  color: var(--dark-gray);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  .stateItem {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--white);
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.mapVisual {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: radial-gradient(circle at center, rgba(11, 59, 143, 0.05), transparent 70%);
+  border-radius: var(--radius-xl);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mapMockup {
+  position: relative;
+  width: 80%;
+  height: 80%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23e2e8f0' d='M20,40 Q40,20 60,30 T80,50 T60,80 T30,70 Z'/%3E%3C/svg%3E");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mapMockup {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath fill='%23334155' d='M20,40 Q40,20 60,30 T80,50 T60,80 T30,70 Z'/%3E%3C/svg%3E");
+  }
+}
+
+.pulseContainer {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+}
+
+.dot {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: var(--primary);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.pulse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary);
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  animation: pulse 2s infinite ease-out;
+  z-index: 1;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.5);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
