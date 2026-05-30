@@ -41,14 +41,12 @@
   max-width: 540px;
 }
 
-@media (prefers-color-scheme: dark) {
-  .headline {
+:global([data-theme='dark']) .headline {
     color: var(--white);
-  }
-  .subheadline {
+  }:global([data-theme='dark']) .subheadline {
     color: rgba(255, 255, 255, 0.8);
   }
-}
+
 
 .actions {
   display: flex;
@@ -65,11 +63,10 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  .metrics {
+:global([data-theme='dark']) .metrics {
     border-color: rgba(255, 255, 255, 0.1);
   }
-}
+
 
 .metric {
   display: flex;
@@ -137,12 +134,11 @@
   animation: float 6s ease-in-out infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  .floatingCard1, .floatingCard2 {
+:global([data-theme='dark']) .floatingCard1, :global([data-theme='dark']) .floatingCard2 {
     background: #1e293b;
     border-color: rgba(255, 255, 255, 0.1);
   }
-}
+
 
 .floatingCard1 {
   top: -20px;

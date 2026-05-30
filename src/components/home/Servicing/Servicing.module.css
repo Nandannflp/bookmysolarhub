@@ -3,11 +3,10 @@
   background-color: var(--white);
 }
 
-@media (prefers-color-scheme: dark) {
-  .servicing {
+:global([data-theme='dark']) .servicing {
     background-color: var(--background);
   }
-}
+
 
 .container {
   max-width: 1280px;
@@ -27,11 +26,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .title {
+:global([data-theme='dark']) .title {
     color: var(--white);
   }
-}
+
 
 .subtitle {
   font-size: 1.125rem;
@@ -88,11 +86,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .featTitle {
+:global([data-theme='dark']) .featTitle {
     color: var(--white);
   }
-}
+
 
 .featDesc {
   font-size: 0.875rem;
@@ -113,12 +110,11 @@
   background-color: var(--white);
 }
 
-@media (prefers-color-scheme: dark) {
-  .dashboardMockup {
+:global([data-theme='dark']) .dashboardMockup {
     background-color: #1e293b;
     border-color: rgba(255, 255, 255, 0.1);
   }
-}
+
 
 .mockHeader {
   display: flex;
@@ -128,12 +124,11 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
-@media (prefers-color-scheme: dark) {
-  .mockHeader {
+:global([data-theme='dark']) .mockHeader {
     background: rgba(255, 255, 255, 0.02);
     border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
-}
+
 
 .mockDot {
   width: 12px;

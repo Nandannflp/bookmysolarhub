@@ -3,11 +3,10 @@
   background-color: var(--white);
 }
 
-@media (prefers-color-scheme: dark) {
-  .testimonials {
+:global([data-theme='dark']) .testimonials {
     background-color: var(--background);
   }
-}
+
 
 .container {
   max-width: 1000px;
@@ -25,11 +24,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .title {
+:global([data-theme='dark']) .title {
     color: var(--white);
   }
-}
+
 
 .subtitle {
   font-size: 1.125rem;
@@ -59,13 +57,12 @@
   flex-shrink: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .navButton {
+:global([data-theme='dark']) .navButton {
     background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.1);
     color: var(--white);
   }
-}
+
 
 .navButton:hover {
   background: var(--primary);
@@ -99,11 +96,10 @@
   font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  .quote {
+:global([data-theme='dark']) .quote {
     color: var(--white);
   }
-}
+
 
 .footer {
   display: flex;
@@ -113,11 +109,10 @@
   padding-top: var(--spacing-lg);
 }
 
-@media (prefers-color-scheme: dark) {
-  .footer {
+:global([data-theme='dark']) .footer {
     border-color: rgba(255, 255, 255, 0.1);
   }
-}
+
 
 .author {
   display: flex;
@@ -143,11 +138,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .name {
+:global([data-theme='dark']) .name {
     color: var(--white);
   }
-}
+
 
 .location {
   font-size: 0.875rem;
@@ -201,11 +195,10 @@
   transition: all 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  .dot {
+:global([data-theme='dark']) .dot {
     background: rgba(255, 255, 255, 0.2);
   }
-}
+
 
 .dotActive {
   background: var(--primary);

@@ -29,13 +29,12 @@
   --shadow-float: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
+[data-theme='dark'] {
     --background: #0f172a;
     --foreground: var(--light-gray);
     --dark-gray: var(--light-gray); /* flip some tokens for dark mode if needed, but for now we keep background distinct */
   }
-}
+
 
 * {
   box-sizing: border-box;
@@ -95,12 +94,11 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-@media (prefers-color-scheme: dark) {
-  .glassmorphism {
+[data-theme='dark'] .glassmorphism {
     background: rgba(15, 23, 42, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.1);
   }
-}
+
 
 /* Base Gradient text */
 .gradient-text {

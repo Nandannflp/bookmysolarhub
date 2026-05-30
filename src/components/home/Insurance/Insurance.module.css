@@ -5,11 +5,10 @@
   overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-  .insurance {
+:global([data-theme='dark']) .insurance {
     background-color: #0f172a;
   }
-}
+
 
 .container {
   max-width: 1280px;
@@ -37,11 +36,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .title {
+:global([data-theme='dark']) .title {
     color: var(--white);
   }
-}
+
 
 .subtitle {
   font-size: 1.125rem;
@@ -90,12 +88,11 @@
   box-shadow: var(--shadow-lg);
 }
 
-@media (prefers-color-scheme: dark) {
-  .shieldCard {
+:global([data-theme='dark']) .shieldCard {
     background: linear-gradient(135deg, #1e293b, #0f172a);
     border-color: rgba(255, 255, 255, 0.1);
   }
-}
+
 
 .shieldIcon {
   font-size: 4rem;
@@ -108,11 +105,10 @@
   color: var(--dark-gray);
 }
 
-@media (prefers-color-scheme: dark) {
-  .shieldTitle {
+:global([data-theme='dark']) .shieldTitle {
     color: var(--white);
   }
-}
+
 
 .shieldDesc {
   color: var(--foreground);

@@ -7,12 +7,11 @@
   transition: box-shadow 0.3s ease, transform 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  .card {
+:global([data-theme='dark']) .card {
     background-color: #1e293b;
     border-color: rgba(255, 255, 255, 0.05);
   }
-}
+
 
 .card:hover {
   box-shadow: var(--shadow-md);

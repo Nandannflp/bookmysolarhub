@@ -13,12 +13,11 @@
   transition: all 0.3s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  .item {
+:global([data-theme='dark']) .item {
     background-color: #1e293b;
     border-color: rgba(255, 255, 255, 0.05);
   }
-}
+
 
 .item.active {
   border-color: var(--primary);

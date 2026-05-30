@@ -1,0 +1,25 @@
+.toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--dark-gray);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.toggle:hover {
+  background: var(--light-gray);
+}
+
+:global([data-theme='dark']) .toggle {
+  color: var(--white);
+}
+
+:global([data-theme='dark']) .toggle:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
