@@ -1,0 +1,25 @@
+{
+  "name": "solarsquare-clone",
+  "version": "1.0.0",
+  "description": "Website cloner for exact front-end preservation",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "clone": "node src/index.js",
+    "clone:cpu": "cross-env CPU=true node src/index.js"
+  },
+  "keywords": [
+    "website",
+    "cloner",
+    "scraper"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "cross-env": "^7.0.3",
+    "css-tree": "^2.3.1",
+    "htmltojsx": "^0.3.0",
+    "node-fetch": "^3.3.2"
+  }
+}
