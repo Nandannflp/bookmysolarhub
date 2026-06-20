@@ -1,3 +1,4 @@
+import Script from 'next/script'
 
 export const metadata = {
   title: 'BookMySolarHub - Bharat ki #1 Home Rooftop Solar Company',
@@ -33,6 +34,7 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         {children}
+        <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" strategy="beforeInteractive" />
       </body>
     </html>
   )
