@@ -1,0 +1,163 @@
+:root {
+  --brand-navy: #17406E;
+  --brand-royal: #0249A6;
+  --brand-bright: #0487B4;
+  --brand-cyan: #01B4DE;
+  --brand-orange: #F6950B;
+  --brand-orange-light: #FFB732;
+  --brand-offwhite: #F2F4F4;
+  --brand-charcoal: #0D0F22;
+  --brand-slate: #79858F;
+  --brand-blue-gradient: linear-gradient(135deg, var(--brand-navy) 0%, var(--brand-royal) 50%, var(--brand-cyan) 100%);
+  --brand-orange-gradient: linear-gradient(135deg, var(--brand-orange) 0%, var(--brand-orange-light) 100%);
+}
+
+/* Global Base */
+body {
+  color: var(--brand-charcoal) !important;
+  background-color: var(--brand-offwhite) !important;
+}
+
+h1, h2, h3, h4, h5, h6, .fw-bold, .fw-semibold {
+  color: var(--brand-navy) !important;
+}
+
+p, .desc, .solar-description, .promises-desc, .author-location, .not-active-city-text-subtitle {
+  color: var(--brand-slate) !important;
+}
+
+a {
+  color: var(--brand-bright) !important;
+  transition: color 0.3s ease !important;
+}
+
+a:hover {
+  color: var(--brand-cyan) !important;
+}
+
+/* Navigation & Header */
+.navbar.bg-light {
+  background-color: #ffffff !important;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.navbar .nav-link, .navbar a, .navbar-nav a {
+  color: var(--brand-navy) !important;
+}
+
+.navbar .nav-link:hover, .navbar a:hover, .navbar-nav a:hover,
+.menu-link:hover, .menu-item a:hover {
+  color: var(--brand-cyan) !important;
+}
+
+.material-symbols-outlined {
+  color: var(--brand-bright) !important;
+}
+
+/* Primary Buttons & CTAs */
+.btn-primary, 
+.signup-electricity, 
+.signup-electricity-header-right-corner-button, 
+.signup-electricity-header-right-corner-button-mobile-view,
+.city-button,
+#calculate-now-calc {
+  background: var(--brand-orange-gradient) !important;
+  border: none !important;
+  color: #fff !important;
+  box-shadow: 0 4px 10px rgba(246, 149, 11, 0.3) !important;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
+  border-radius: 8px !important;
+  font-weight: 600 !important;
+}
+
+/* Hover State for Primary Buttons */
+.btn-primary:hover, 
+.signup-electricity:hover, 
+.signup-electricity-header-right-corner-button:hover,
+.signup-electricity-header-right-corner-button-mobile-view:hover,
+.city-button:hover,
+#calculate-now-calc:hover:not(:disabled) {
+  background: var(--brand-orange-gradient) !important; /* Keep gradient direction stable */
+  transform: translateY(-2px) !important; /* Tiny lift */
+  box-shadow: 0 6px 15px rgba(246, 149, 11, 0.5), 0 0 12px rgba(246, 149, 11, 0.3) !important; /* Soft shadow & gentle glow */
+  filter: brightness(1.08) !important; /* Slightly brighter */
+}
+
+/* Disabled button state */
+#calculate-now-calc:disabled {
+  background: var(--brand-slate) !important;
+  box-shadow: none !important;
+  transform: none !important;
+  filter: none !important;
+}
+
+/* Highlights & Text Gradients */
+.gradient-text, .text-highlight {
+  background: var(--brand-blue-gradient) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+}
+
+/* Specific Sections & Cards */
+.step-circle {
+  background: var(--brand-blue-gradient) !important;
+  color: #fff !important;
+  border-color: var(--brand-cyan) !important;
+}
+
+.img-wrapper, .step-circle-wrapper {
+  background-color: rgba(1, 180, 222, 0.08) !important;
+  border-radius: 50% !important;
+}
+
+.goodzero-pride-wrappper .card-wrapper {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(23, 64, 110, 0.1) !important;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.03) !important;
+}
+
+.recommended-card, .faq-section .accordion-item {
+  background-color: #ffffff !important;
+  border: 1px solid rgba(23, 64, 110, 0.1) !important;
+  border-radius: 12px !important;
+}
+
+.solar-option {
+  border-radius: 12px !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.solar-option:hover {
+  background-color: rgba(4, 135, 180, 0.03) !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05) !important;
+}
+
+/* Calculator Range Slider */
+#custom-handle {
+  background: var(--brand-orange) !important;
+  border: 2px solid #ffffff !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2) !important;
+  transition: transform 0.1s ease !important;
+}
+
+#custom-handle:active {
+  transform: scale(1.1) !important;
+}
+
+.ui-slider {
+  background-color: rgba(121, 133, 143, 0.2) !important;
+}
+
+.ui-slider-range {
+  background: var(--brand-blue-gradient) !important;
+}
+
+/* Footer & Accents */
+.divider {
+  background-color: rgba(23, 64, 110, 0.1) !important;
+}
+
+.app-section, .goodzero-promise, .solar-journey-main-section, .testimonials-section, .faq-section {
+  background-color: transparent !important; /* Rely on body offwhite or custom */
+}
