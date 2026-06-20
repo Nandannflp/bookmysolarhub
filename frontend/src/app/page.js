@@ -1106,7 +1106,8 @@ export default function Page() {
                   />
                   <div className="text-left">
                     <p>
-                      We are present in 25 Cities across 3 States, and are growing every day.
+                      We are present in 25 Cities across 3 States, and are
+                      growing every day.
                     </p>
                   </div>
                 </div>{" "}
@@ -3993,461 +3994,268 @@ export default function Page() {
         <div className="footer-locations" id="footer-locations-href">
           <div className="container py-40">
             <div className="row footer-locations-block pb-3">
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold"> Delhi NCR</p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-delhi/"
-                      onclick="trackFooterClickEvent('footer_solar_in_delhi')"
-                    >
-                      Delhi
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-gurugram/"
-                      onclick="trackFooterClickEvent('footer_solar_in_gurugram')"
-                    >
-                      Gurugram
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ncr/"
-                      onclick="trackFooterClickEvent('footer_solar_in_ncr')"
-                    >
-                      NCR
-                    </a>
-                  </li>
-                </ul>
+              <div className="col-md-3 col-6 footer-locations-content">
                 <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-gujarat/"
-                    onclick="trackFooterClickEvent('footer_solar_in_gujrat')"
-                  >
-                    {" "}
-                    Gujarat
+                  <a href="javascript:void(0)" className="text-white">
+                    UTTAR PRADESH
                   </a>
                 </p>
                 <ul>
-                  {" "}
                   <li>
                     <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ahmedabad/"
-                      onclick="trackFooterClickEvent('footer_solar_in_ahmedabad')"
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-noida/"
+                      onclick="trackFooterClickEvent('footer_solar_in_noida')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
-                      Ahmedabad
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-anand/"
-                      onclick="trackFooterClickEvent('footer_solar_in_anand')"
-                    >
-                      Anand
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-gandhinagar/"
-                      onclick="trackFooterClickEvent('footer_solar_in_gandhinagar')"
-                    >
-                      Gandhinagar
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-surat/"
-                      onclick="trackFooterClickEvent('footer_solar_in_surat')"
-                    >
-                      Surat
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-vadodara/"
-                      onclick="trackFooterClickEvent('footer_solar_in_vadodara')"
-                    >
-                      Vadodara
+                      Noida
                     </a>
                   </li>
-                </ul>
-              </div>
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-karnataka/"
-                    onclick="trackFooterClickEvent('footer_solar_in_karnataka')"
-                  >
-                    {" "}
-                    Karnataka
-                  </a>
-                </p>
-                <ul>
-                  {" "}
                   <li>
                     <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bengaluru/"
-                      onclick="trackFooterClickEvent('footer_solar_in_bengaluru')"
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-greater-noida/"
+                      onclick="trackFooterClickEvent('footer_solar_in_greater_noida')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
-                      Bengaluru
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-mysuru/"
-                      onclick="trackFooterClickEvent('footer_solar_in_mysuru')"
-                    >
-                      Mysuru
+                      Greater Noida
                     </a>
                   </li>
-                </ul>
-                <p className="location-bold mt-3">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-madhya-pradesh/"
-                    onclick="trackFooterClickEvent('footer_solar_in_madhya_pradesh')"
-                  >
-                    {" "}
-                    Madhya Pradesh
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bhopal/"
-                      onclick="trackFooterClickEvent('footer_solar_in_bhopal')"
-                    >
-                      Bhopal
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-gwalior/"
-                      onclick="trackFooterClickEvent('footer_solar_in_gwalior')"
-                    >
-                      Gwalior
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-indore/"
-                      onclick="trackFooterClickEvent('footer_solar_in_indore')"
-                    >
-                      Indore
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-jabalpur/"
-                      onclick="trackFooterClickEvent('footer_solar_in_jabalpur')"
-                    >
-                      Jabalpur
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-maharashtra/"
-                    onclick="trackFooterClickEvent('footer_solar_in_maharashtra')"
-                  >
-                    {" "}
-                    Maharashtra
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-amravati/"
-                      onclick="trackFooterClickEvent('footer_solar_in_amravati')"
-                    >
-                      Amravati
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-aurangabad/"
-                      onclick="trackFooterClickEvent('footer_solar_in_aurangabad')"
-                    >
-                      CH Sambhajinagar
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-jalgaon/"
-                      onclick="trackFooterClickEvent('footer_solar_in_jalgaon')"
-                    >
-                      Jalgaon
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-mumbai/"
-                      onclick="trackFooterClickEvent('footer_solar_in_mumbai')"
-                    >
-                      Mumbai
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-nagpur/"
-                      onclick="trackFooterClickEvent('footer_solar_in_nagpur')"
-                    >
-                      Nagpur
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-nashik/"
-                      onclick="trackFooterClickEvent('footer_solar_in_nashik')"
-                    >
-                      Nashik
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-pune/"
-                      onclick="trackFooterClickEvent('footer_solar_in_pune')"
-                    >
-                      Pune
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-thane/"
-                      onclick="trackFooterClickEvent('footer_solar_in_thane')"
-                    >
-                      Thane
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-kolhapur/"
-                      onclick="trackFooterClickEvent('footer_solar_in_kolhapur')"
-                    >
-                      Kolhapur
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-solapur/"
-                      onclick="trackFooterClickEvent('footer_solar_in_solapur')"
-                    >
-                      Solapur
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-rajasthan/"
-                    onclick="trackFooterClickEvent('footer_solar_in_rajasthan')"
-                  >
-                    {" "}
-                    Rajasthan
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ajmer/"
-                      onclick="trackFooterClickEvent('footer_solar_in_ajmer')"
-                    >
-                      Ajmer
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-jaipur/"
-                      onclick="trackFooterClickEvent('footer_solar_in_jaipur')"
-                    >
-                      Jaipur
-                    </a>
-                  </li>
-                </ul>
-                <p className="location-bold mt-3">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-tamil-nadu/"
-                    onclick="trackFooterClickEvent('footer_solar_in_tamil_nadu')"
-                  >
-                    {" "}
-                    Tamil Nadu
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-chennai/"
-                      onclick="trackFooterClickEvent('footer_solar_in_chennai')"
-                    >
-                      Chennai
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-coimbatore/"
-                      onclick="trackFooterClickEvent('footer_solar_in_coimbatore')"
-                    >
-                      Coimbatore
-                    </a>
-                  </li>
-                </ul>
-                <p className="location-bold mt-3">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-andhra-pradesh/"
-                    onclick="trackFooterClickEvent('footer_solar_in_andhra_pradesh')"
-                  >
-                    Andhra Pradesh
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-vijaywada/"
-                      onclick="trackFooterClickEvent('footer_solar_in_vijaywada')"
-                    >
-                      Vijaywada
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-telangana/"
-                    onclick="trackFooterClickEvent('footer_solar_in_telangana')"
-                  >
-                    {" "}
-                    Telangana
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-hyderabad/"
-                      onclick="trackFooterClickEvent('footer_solar_in_hyderabad')"
-                    >
-                      Hyderabad
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-rangareddy/"
-                      onclick="trackFooterClickEvent('footer_solar_in_rangareddy')"
-                    >
-                      Rangareddy
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-sangareddy/"
-                      onclick="trackFooterClickEvent('footer_solar_in_sangareddy')"
-                    >
-                      Sangareddy
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-trimulgherry/"
-                      onclick="trackFooterClickEvent('footer_solar_in_trimulgherry')"
-                    >
-                      Trimulgherry
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-warangal/"
-                      onclick="trackFooterClickEvent('footer_solar_in_warangal')"
-                    >
-                      Warangal
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-md-2 col-6 footer-locations-content">
-                <p className="location-bold">
-                  <a
-                    href="https://www.bookmysolarhub.in/rooftop-solar-in-uttar-pradesh/"
-                    onclick="trackFooterClickEvent('footer_solar_in_uttar_pradesh')"
-                  >
-                    {" "}
-                    Uttar Pradesh
-                  </a>
-                </p>
-                <ul>
-                  {" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-gautam-buddha-nagar/"
-                      onclick="trackFooterClickEvent('footer_solar_in_gautam_buddha_nagar')"
-                    >
-                      Gautam Buddha Nagar
-                    </a>
-                  </li>{" "}
-                  <li>
-                    <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-kanpur-nagar/"
-                      onclick="trackFooterClickEvent('footer_solar_in_kanpur_nagar')"
-                    >
-                      Kanpur Nagar
-                    </a>
-                  </li>{" "}
                   <li>
                     <a
                       href="https://www.bookmysolarhub.in/rooftop-solar-in-lucknow/"
                       onclick="trackFooterClickEvent('footer_solar_in_lucknow')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
                       Lucknow
                     </a>
-                  </li>{" "}
+                  </li>
                   <li>
                     <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-varanasi/"
-                      onclick="trackFooterClickEvent('footer_solar_in_varanasi')"
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ayodhya/"
+                      onclick="trackFooterClickEvent('footer_solar_in_ayodhya')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
-                      Varanasi
+                      Ayodhya
                     </a>
-                  </li>{" "}
+                  </li>
                   <li>
                     <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ghaziabad/"
-                      onclick="trackFooterClickEvent('footer_solar_in_ghaziabad')"
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-kanpur/"
+                      onclick="trackFooterClickEvent('footer_solar_in_kanpur')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
-                      Ghaziabad
+                      Kanpur
                     </a>
-                  </li>{" "}
+                  </li>
                   <li>
                     <a
                       href="https://www.bookmysolarhub.in/rooftop-solar-in-agra/"
                       onclick="trackFooterClickEvent('footer_solar_in_agra')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
                       Agra
                     </a>
-                  </li>{" "}
+                  </li>
                   <li>
                     <a
-                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bareilly/"
-                      onclick="trackFooterClickEvent('footer_solar_in_bareilly')"
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-prayagraj/"
+                      onclick="trackFooterClickEvent('footer_solar_in_prayagraj')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
-                      Bareilly
+                      Prayagraj
                     </a>
-                  </li>{" "}
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3 col-6 footer-locations-content">
+                <p className="location-bold">
+                  <a href="javascript:void(0)" className="text-white">
+                    UTTAR PRADESH
+                  </a>
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-varanasi/"
+                      onclick="trackFooterClickEvent('footer_solar_in_varanasi')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Varanasi
+                    </a>
+                  </li>
                   <li>
                     <a
                       href="https://www.bookmysolarhub.in/rooftop-solar-in-meerut/"
                       onclick="trackFooterClickEvent('footer_solar_in_meerut')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
                     >
                       Meerut
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ghaziabad/"
+                      onclick="trackFooterClickEvent('footer_solar_in_ghaziabad')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Ghaziabad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-gorakhpur/"
+                      onclick="trackFooterClickEvent('footer_solar_in_gorakhpur')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Gorakhpur
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bareilly/"
+                      onclick="trackFooterClickEvent('footer_solar_in_bareilly')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Bareilly
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-moradabad/"
+                      onclick="trackFooterClickEvent('footer_solar_in_moradabad')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Moradabad
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3 col-6 footer-locations-content">
+                <p className="location-bold">
+                  <a href="javascript:void(0)" className="text-white">
+                    BIHAR
+                  </a>
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-patna/"
+                      onclick="trackFooterClickEvent('footer_solar_in_patna')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Patna
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bodh-gaya/"
+                      onclick="trackFooterClickEvent('footer_solar_in_bodh_gaya')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Bodh Gaya
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-rajgir/"
+                      onclick="trackFooterClickEvent('footer_solar_in_rajgir')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Rajgir
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-vaishali/"
+                      onclick="trackFooterClickEvent('footer_solar_in_vaishali')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Vaishali
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bhagalpur/"
+                      onclick="trackFooterClickEvent('footer_solar_in_bhagalpur')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Bhagalpur
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-3 col-6 footer-locations-content">
+                <p className="location-bold">
+                  <a href="javascript:void(0)" className="text-white">
+                    JHARKHAND
+                  </a>
+                </p>
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-ranchi/"
+                      onclick="trackFooterClickEvent('footer_solar_in_ranchi')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Ranchi
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-giridih/"
+                      onclick="trackFooterClickEvent('footer_solar_in_giridih')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Giridih
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-jamshedpur/"
+                      onclick="trackFooterClickEvent('footer_solar_in_jamshedpur')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Jamshedpur
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-dhanbad/"
+                      onclick="trackFooterClickEvent('footer_solar_in_dhanbad')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Dhanbad
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.bookmysolarhub.in/rooftop-solar-in-bokaro/"
+                      onclick="trackFooterClickEvent('footer_solar_in_bokaro')"
+                      className="text-white"
+                      style={{ opacity: 0.8 }}
+                    >
+                      Bokaro
                     </a>
                   </li>
                 </ul>
