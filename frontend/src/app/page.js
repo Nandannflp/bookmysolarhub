@@ -1106,8 +1106,7 @@ export default function Page() {
                   />
                   <div className="text-left">
                     <p>
-                      We are present in 3 states and 25 cities across 9 States,
-                      and are growing every day.
+                      We are present in 25 cities across 3 States, and are growing every day.
                     </p>
                   </div>
                 </div>{" "}
