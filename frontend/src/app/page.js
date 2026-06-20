@@ -1564,10 +1564,10 @@ export default function Page() {
                   role="tabpanel"
                   aria-labelledby="faq-tab-0-tab"
                 >
-                  <div className="row faqAccordian">
-                    <div className="pe-md-0">
+                  <div className="row faqAccordian g-4">
+                    <div className="col-md-6">
                       <div
-                        className="faq_accordian accordion custom-icon-accordion"
+                        className="faq_accordian accordion custom-icon-accordion d-flex flex-column gap-3"
                         id="accordion-0-6a2cddcc8d31a"
                       >
                         <div className="accordion-item">
@@ -2124,9 +2124,9 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-                    <div className="pe-md-0">
+                    <div className="col-md-6">
                       <div
-                        className="faq_accordian accordion custom-icon-accordion"
+                        className="faq_accordian accordion custom-icon-accordion d-flex flex-column gap-3"
                         id="accordion-0-6a2cddcc8d5e6"
                       >
                         <div className="accordion-item">
