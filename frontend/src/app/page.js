@@ -142,7 +142,7 @@ export default function Page() {
                     </a>
                     <div className="city-menu-container">
                       <div className="city-menu-header">
-                        We are present in 29 cities
+                        We are present in 3 states and 25 cities
                       </div>
                       <div className="city-grid">
                         <button
@@ -1106,8 +1106,8 @@ export default function Page() {
                   />
                   <div className="text-left">
                     <p>
-                      We are present in 29 Cities across 9 States, and are
-                      growing every day.
+                      We are present in 3 states and 25 cities across 9 States,
+                      and are growing every day.
                     </p>
                   </div>
                 </div>{" "}
@@ -1504,33 +1504,83 @@ export default function Page() {
                 </h2>
                 <div className="d-md-block  d-lg-flex customers-say-wrapper">
                   <div className="w-100 d-flex justify-content-start">
-                    <div className="d-flex flex-column google-reviwes p-4 bg-white text-start" style={{ width: "100%", maxWidth: "460px", borderRadius: "16px", boxShadow: "0 8px 30px rgba(0,0,0,0.06)", border: "1px solid rgba(0,0,0,0.04)" }}>
-                      
-                      <div className="d-flex text-warning mb-2" style={{ fontSize: "18px" }}>
+                    <div
+                      className="d-flex flex-column google-reviwes p-4 bg-white text-start"
+                      style={{
+                        width: "100%",
+                        maxWidth: "460px",
+                        borderRadius: "16px",
+                        boxShadow: "0 8px 30px rgba(0,0,0,0.06)",
+                        border: "1px solid rgba(0,0,0,0.04)",
+                      }}
+                    >
+                      <div
+                        className="d-flex text-warning mb-2"
+                        style={{ fontSize: "18px" }}
+                      >
                         {"★★★★★"}
                       </div>
-                      
-                      <p className="fst-italic mb-4" style={{ fontSize: "16px", color: "var(--brand-slate)", lineHeight: "1.6" }}>
-                        "BookMySolarHub provided an excellent installation experience! My electricity bill dropped to zero in just two months. The team was highly professional and handled all the subsidy paperwork flawlessly."
+
+                      <p
+                        className="fst-italic mb-4"
+                        style={{
+                          fontSize: "16px",
+                          color: "var(--brand-slate)",
+                          lineHeight: "1.6",
+                        }}
+                      >
+                        "BookMySolarHub provided an excellent installation
+                        experience! My electricity bill dropped to zero in just
+                        two months. The team was highly professional and handled
+                        all the subsidy paperwork flawlessly."
                       </p>
-                      
-                      <p className="fw-bold mb-3" style={{ fontSize: "15px", color: "var(--brand-navy)" }}>
+
+                      <p
+                        className="fw-bold mb-3"
+                        style={{ fontSize: "15px", color: "var(--brand-navy)" }}
+                      >
                         Rahul Sharma
                       </p>
-                      
-                      <div className="w-100 mb-3" style={{ height: "1px", backgroundColor: "rgba(0,0,0,0.06)" }} />
+
+                      <div
+                        className="w-100 mb-3"
+                        style={{
+                          height: "1px",
+                          backgroundColor: "rgba(0,0,0,0.06)",
+                        }}
+                      />
 
                       <div className="d-flex align-items-center justify-content-between">
                         <div className="d-flex align-items-center">
-                          <h2 className="fw-bold mb-0 me-3" style={{ fontSize: "28px", color: "var(--brand-navy)", lineHeight: "1" }}>4.5</h2>
+                          <h2
+                            className="fw-bold mb-0 me-3"
+                            style={{
+                              fontSize: "28px",
+                              color: "var(--brand-navy)",
+                              lineHeight: "1",
+                            }}
+                          >
+                            4.5
+                          </h2>
                           <div>
-                            <div className="star d-flex mb-1" style={{ fontSize: "14px" }}>
+                            <div
+                              className="star d-flex mb-1"
+                              style={{ fontSize: "14px" }}
+                            >
                               <div className="stars-outer">
-                                <div className="stars-inner" style={{ width: "90%" }} />
+                                <div
+                                  className="stars-inner"
+                                  style={{ width: "90%" }}
+                                />
                               </div>
                             </div>
-                            <p className="mb-0 text-muted" style={{ fontSize: "12px", lineHeight: "1.3" }}>
-                              Rated 4.5 On Google<br/>with 5000+ reviews
+                            <p
+                              className="mb-0 text-muted"
+                              style={{ fontSize: "12px", lineHeight: "1.3" }}
+                            >
+                              Rated 4.5 On Google
+                              <br />
+                              with 5000+ reviews
                             </p>
                           </div>
                         </div>
@@ -1541,7 +1591,6 @@ export default function Page() {
                           alt="Google logo"
                         />
                       </div>
-
                     </div>
                   </div>
                 </div>
