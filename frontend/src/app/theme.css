@@ -60,10 +60,11 @@ a:hover {
 .signup-electricity-header-right-corner-button, 
 .signup-electricity-header-right-corner-button-mobile-view,
 .city-button,
+.cta-btn,
 #calculate-now-calc {
   background: var(--brand-orange-gradient) !important;
   border: none !important;
-  color: #fff !important;
+  color: var(--brand-navy) !important;
   box-shadow: 0 4px 10px rgba(246, 149, 11, 0.3) !important;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1) !important;
   border-radius: 8px !important;
@@ -76,11 +77,13 @@ a:hover {
 .signup-electricity-header-right-corner-button:hover,
 .signup-electricity-header-right-corner-button-mobile-view:hover,
 .city-button:hover,
+.cta-btn:hover,
 #calculate-now-calc:hover:not(:disabled) {
   background: var(--brand-orange-gradient) !important; /* Keep gradient direction stable */
   transform: translateY(-2px) !important; /* Tiny lift */
   box-shadow: 0 6px 15px rgba(246, 149, 11, 0.5), 0 0 12px rgba(246, 149, 11, 0.3) !important; /* Soft shadow & gentle glow */
   filter: brightness(1.08) !important; /* Slightly brighter */
+  color: var(--brand-navy) !important;
 }
 
 /* Disabled button state */
