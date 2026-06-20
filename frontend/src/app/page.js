@@ -1503,42 +1503,43 @@ export default function Page() {
                   90% of our customers recommend us
                 </h2>
                 <div className="d-md-block  d-lg-flex customers-say-wrapper">
-                  <div className="right-section w-100 d-flex justify-content-center">
-                    <div className="d-flex flex-column flex-lg-row google-reviwes p-4 align-items-center" style={{ width: "50%", maxWidth: "800px", borderRadius: "16px" }}>
+                  <div className="w-100 d-flex justify-content-start">
+                    <div className="d-flex flex-column google-reviwes p-4 bg-white text-start" style={{ width: "100%", maxWidth: "460px", borderRadius: "16px", boxShadow: "0 8px 30px rgba(0,0,0,0.06)", border: "1px solid rgba(0,0,0,0.04)" }}>
                       
-                      <div className="d-flex align-items-center mb-4 mb-lg-0 pe-lg-4 border-end-lg" style={{ minWidth: "fit-content" }}>
-                        <div className="google-reviwes-inner-wrapper position-relative me-4">
-                          <h2 className="fw-bold mb-1 rating text-center text-md-start">4.5</h2>
-                          <div className="star d-flex justify-content-center justify-content-md-start mb-2">
-                            <div className="stars-outer">
-                              <div
-                                className="stars-inner"
-                                style={{ width: "90%" }}
-                              />
-                            </div>
-                          </div>
-                          <p className="mb-0 text-muted" style={{ fontSize: "13px" }}>
-                            Rated 4.5 On Google with 5000+ reviews
-                          </p>
-                        </div>
-                        <div>
-                          <img
-                            src="https://cdn.solarsquare.in/blog/wp-content/uploads/2025/07/16175626/google-logo.webp"
-                            width={50}
-                            height={50}
-                            alt="Google logo"
-                          />
-                        </div>
+                      <div className="d-flex text-warning mb-2" style={{ fontSize: "18px" }}>
+                        {"★★★★★"}
                       </div>
+                      
+                      <p className="fst-italic mb-4" style={{ fontSize: "16px", color: "var(--brand-slate)", lineHeight: "1.6" }}>
+                        "BookMySolarHub provided an excellent installation experience! My electricity bill dropped to zero in just two months. The team was highly professional and handled all the subsidy paperwork flawlessly."
+                      </p>
+                      
+                      <p className="fw-bold mb-3" style={{ fontSize: "15px", color: "var(--brand-navy)" }}>
+                        Rahul Sharma
+                      </p>
+                      
+                      <div className="w-100 mb-3" style={{ height: "1px", backgroundColor: "rgba(0,0,0,0.06)" }} />
 
-                      <div className="ps-lg-4 text-start">
-                        <div className="d-flex text-warning mb-2">
-                          {"★★★★★"}
+                      <div className="d-flex align-items-center justify-content-between">
+                        <div className="d-flex align-items-center">
+                          <h2 className="fw-bold mb-0 me-3" style={{ fontSize: "28px", color: "var(--brand-navy)", lineHeight: "1" }}>4.5</h2>
+                          <div>
+                            <div className="star d-flex mb-1" style={{ fontSize: "14px" }}>
+                              <div className="stars-outer">
+                                <div className="stars-inner" style={{ width: "90%" }} />
+                              </div>
+                            </div>
+                            <p className="mb-0 text-muted" style={{ fontSize: "12px", lineHeight: "1.3" }}>
+                              Rated 4.5 On Google<br/>with 5000+ reviews
+                            </p>
+                          </div>
                         </div>
-                        <p className="fst-italic mb-2" style={{ fontSize: "14px", color: "var(--brand-slate)" }}>
-                          "BookMySolarHub provided an excellent installation experience! My electricity bill dropped to zero in just two months. The team was highly professional and handled all the subsidy paperwork flawlessly."
-                        </p>
-                        <p className="fw-bold mb-0 text-end" style={{ fontSize: "14px", color: "var(--brand-navy)" }}>- Rahul Sharma</p>
+                        <img
+                          src="https://cdn.solarsquare.in/blog/wp-content/uploads/2025/07/16175626/google-logo.webp"
+                          width={44}
+                          height={44}
+                          alt="Google logo"
+                        />
                       </div>
 
                     </div>
