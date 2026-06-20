@@ -13,7 +13,7 @@ export default function Page() {
             <a
               onclick="trackNavbarLogoClickEvent();"
               className="navbar-brand"
-              href="https://www.bookmysolarhub.in"
+              href="/"
             >
               {" "}
               <img
@@ -278,7 +278,7 @@ export default function Page() {
               <a
                 onclick="trackNavbarLogoClickEvent();"
                 className="navbar-brand"
-                href="https://www.bookmysolarhub.in"
+                href="/"
               >
                 {" "}
                 <img
