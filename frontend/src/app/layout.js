@@ -1,6 +1,6 @@
 
 export const metadata = {
-  title: 'SolarSquare - Bharat ki #1 Home Rooftop Solar Company',
+  title: 'BookMySolarHub - Bharat ki #1 Home Rooftop Solar Company',
   description: 'Discover the best rooftop solar panel system for your home.',
 }
 
