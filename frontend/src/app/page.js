@@ -1129,7 +1129,7 @@ export default function Page() {
           </div>
           <section
             id="solar-calc-blog-component"
-            className="position-relative overflow-hidden"
+            className="position-relative overflow-hidden d-none"
           >
             <div className="position-absolute calc-bg-img">
               <img
