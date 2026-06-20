@@ -1,12 +1,31 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import pincodeData from '../data/pincodes.json';
 
 export default function SavingsCalculator() {
   const [pincode, setPincode] = useState('');
   const [bill, setBill] = useState(3000);
   const [result, setResult] = useState(null);
+  const sliderRef = useRef(null);
+
+  useEffect(() => {
+    if (!sliderRef.current) return;
+    const el = sliderRef.current;
+    
+    const handleSliderChange = (e) => {
+      setBill(Number(e.target.value));
+    };
+
+    // Listen to both native input and change events in case the external script fires them
+    el.addEventListener('input', handleSliderChange);
+    el.addEventListener('change', handleSliderChange);
+    
+    return () => {
+      el.removeEventListener('input', handleSliderChange);
+      el.removeEventListener('change', handleSliderChange);
+    };
+  }, []);
 
   const calculateSavings = () => {
     if (pincode.length !== 6) {
@@ -68,12 +87,14 @@ export default function SavingsCalculator() {
                 </div>
                 <input 
                   type="range" 
+                  ref={sliderRef}
                   className="form-range" 
                   min="500" 
                   max="20000" 
                   step="500" 
-                  value={bill}
-                  onChange={(e) => setBill(Number(e.target.value))}
+                  defaultValue={3000}
+                  data-min="500"
+                  data-max="20000"
                   style={{ 
                     accentColor: '#a1ead1',
                     height: '10px'
