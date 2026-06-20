@@ -1,4 +1,5 @@
 import Script from 'next/script'
+import './theme.css'
 
 export const metadata = {
   title: 'BookMySolarHub - Bharat ki #1 Home Rooftop Solar Company',
